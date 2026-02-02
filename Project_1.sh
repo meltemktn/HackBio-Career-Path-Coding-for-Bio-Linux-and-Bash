@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Print your name 
 
 echo "Meltem"
@@ -29,7 +28,6 @@ mv wildtype.fna ..
 
 # Remove the duplicate ".gbk" file 
 
-
 file="wildtype.gbk"
 
 for eachfile in . ; do
@@ -37,7 +35,6 @@ for eachfile in . ; do
 		rm ${file}.*
 	fi
 done
-
 
 # Confirm if the ".fna" file is mutant or wild-type and print all the matching lines into a new file if mutant
 
@@ -59,11 +56,9 @@ tail -n +2 ${file} | wc -l ${file} # To skip the first line of a file (and start
 
 grep -F LOCUS ${file}| awk -F" " '{print $3}' 
 
-
 # Print the source organism of the ".gbk" file
 
 grep -F SOURCE ${file}| awk -F" " '{print $2, $3}' 
-
 
 # Print all the gene names in the ".gbk" file
 
