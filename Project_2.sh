@@ -1,5 +1,7 @@
-  GNU nano 7.2                                                             project_2.sh                                                                       
 #!/bin/zsh
+
+# #!/bin/bash could work too
+
 
 conda activate base
 conda create -n funtools
