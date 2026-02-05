@@ -18,4 +18,4 @@ The second project includes:
 - Configuring conda channels
 - Installing packages through the bioconda channel
 
-To run **Project_2.sh**, the command "bash -i Project_2.sh" was utilized to invoke the interactive environment. My attempt to run it in the Shell Cloud resulted in the error "No space left on device", so I resorted to the zsh shell. Theoretically the script should work under bash, too.
+To run **Project_2.sh**, the command "bash -i Project_2.sh" was utilized to invoke the interactive environment. My attempt to run it in the Google Shell Cloud resulted in the error "No space left on device", so I resorted to the zsh shell. Theoretically the script should work under bash, too.
